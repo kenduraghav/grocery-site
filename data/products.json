@@ -1,0 +1,36 @@
+{
+  "products": [
+    { "id": "rice-basmati-indiagate-1kg", "name": "Basmati Rice", "brand": "India Gate", "category": "Rice & Flour", "unit": "1 kg", "price": 13500, "inStock": true },
+    { "id": "rice-basmati-indiagate-5kg", "name": "Basmati Rice", "brand": "India Gate", "category": "Rice & Flour", "unit": "5 kg", "price": 64000, "inStock": true },
+    { "id": "rice-basmati-daawat-1kg", "name": "Basmati Rice", "brand": "Daawat", "category": "Rice & Flour", "unit": "1 kg", "price": 12800, "inStock": true },
+    { "id": "atta-aashirvaad-5kg", "name": "Wheat Flour (Atta)", "brand": "Aashirvaad", "category": "Rice & Flour", "unit": "5 kg", "price": 27500, "inStock": true },
+
+    { "id": "chilli-aachi-100g", "name": "Chilli Powder", "brand": "Aachi", "category": "Masala", "unit": "100 g", "price": 4500, "inStock": true },
+    { "id": "chilli-sakthi-100g", "name": "Chilli Powder", "brand": "Sakthi", "category": "Masala", "unit": "100 g", "price": 4200, "inStock": true },
+    { "id": "coriander-aachi-100g", "name": "Coriander Powder", "brand": "Aachi", "category": "Masala", "unit": "100 g", "price": 3800, "inStock": true },
+    { "id": "coriander-sakthi-100g", "name": "Coriander Powder", "brand": "Sakthi", "category": "Masala", "unit": "100 g", "price": 3600, "inStock": false },
+    { "id": "turmeric-aachi-100g", "name": "Turmeric Powder", "brand": "Aachi", "category": "Masala", "unit": "100 g", "price": 3500, "inStock": true },
+    { "id": "turmeric-sakthi-100g", "name": "Turmeric Powder", "brand": "Sakthi", "category": "Masala", "unit": "100 g", "price": 3300, "inStock": true },
+    { "id": "sambar-aachi-200g", "name": "Sambar Powder", "brand": "Aachi", "category": "Masala", "unit": "200 g", "price": 7200, "inStock": true },
+    { "id": "sambar-sakthi-200g", "name": "Sambar Powder", "brand": "Sakthi", "category": "Masala", "unit": "200 g", "price": 6800, "inStock": true },
+
+    { "id": "oil-sunflower-fortune-1l", "name": "Sunflower Oil", "brand": "Fortune", "category": "Oil", "unit": "1 L", "price": 14000, "inStock": true },
+    { "id": "oil-sunflower-goldwinner-1l", "name": "Sunflower Oil", "brand": "Gold Winner", "category": "Oil", "unit": "1 L", "price": 14500, "inStock": true },
+    { "id": "oil-gingelly-idhayam-500ml", "name": "Gingelly Oil", "brand": "Idhayam", "category": "Oil", "unit": "500 ml", "price": 21000, "inStock": true },
+
+    { "id": "dal-toor-tatasampann-1kg", "name": "Toor Dal", "brand": "Tata Sampann", "category": "Dal", "unit": "1 kg", "price": 18500, "inStock": true },
+    { "id": "dal-moong-tatasampann-500g", "name": "Moong Dal", "brand": "Tata Sampann", "category": "Dal", "unit": "500 g", "price": 9800, "inStock": true },
+    { "id": "dal-urad-tatasampann-1kg", "name": "Urad Dal", "brand": "Tata Sampann", "category": "Dal", "unit": "1 kg", "price": 17500, "inStock": true },
+
+    { "id": "bev-cola-coca-750ml", "name": "Cola", "brand": "Coca-Cola", "category": "Beverages", "unit": "750 ml", "price": 4000, "inStock": true },
+    { "id": "bev-cola-pepsi-750ml", "name": "Cola", "brand": "Pepsi", "category": "Beverages", "unit": "750 ml", "price": 4000, "inStock": true },
+    { "id": "bev-juice-orange-tropicana-1l", "name": "Orange Juice", "brand": "Tropicana", "category": "Beverages", "unit": "1 L", "price": 11000, "inStock": true },
+    { "id": "bev-water-bisleri-1l", "name": "Drinking Water", "brand": "Bisleri", "category": "Beverages", "unit": "1 L", "price": 2000, "inStock": true },
+    { "id": "bev-coffee-bru-100g", "name": "Instant Coffee", "brand": "Bru", "category": "Beverages", "unit": "100 g", "price": 29000, "inStock": true },
+    { "id": "bev-tea-tatagold-500g", "name": "Tea Powder", "brand": "Tata Tea Gold", "category": "Beverages", "unit": "500 g", "price": 26000, "inStock": true },
+
+    { "id": "veg-onion-1kg", "name": "Onion", "category": "Vegetables", "unit": "1 kg", "price": 4500, "inStock": true },
+    { "id": "veg-tomato-1kg", "name": "Tomato", "category": "Vegetables", "unit": "1 kg", "price": 3000, "inStock": true },
+    { "id": "veg-potato-1kg", "name": "Potato", "category": "Vegetables", "unit": "1 kg", "price": 4000, "inStock": true }
+  ]
+}

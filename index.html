@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grocery Store</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="top">
+    <div class="top-inner">
+      <h1 id="shop-name">Grocery Store</h1>
+      <button id="cart-btn" class="cart-btn" type="button" aria-haspopup="dialog">
+        Cart <span id="cart-count" class="badge">0</span> <span id="cart-total"></span>
+      </button>
+      <input id="search" type="search" placeholder="Search items or brands" aria-label="Search items or brands" autocomplete="off">
+    </div>
+  </header>
+
+  <div class="filters">
+    <div id="chips" class="chips" role="group" aria-label="Categories"></div>
+    <label class="brand-pick">Brand
+      <select id="brand"><option value="">All brands</option></select>
+    </label>
+  </div>
+
+  <main>
+    <div id="notice" class="notice" hidden></div>
+    <p id="count" class="count" aria-live="polite"></p>
+    <div id="grid" class="grid"><p class="empty">Loading items…</p></div>
+  </main>
+
+  <div id="overlay" class="overlay" hidden></div>
+
+  <aside id="cart" class="drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" hidden>
+    <div class="drawer-head">
+      <h2 id="cart-title" tabindex="-1">Your cart</h2>
+      <button id="cart-close" class="btn plain" type="button">Close</button>
+    </div>
+
+    <div class="drawer-body">
+      <p id="cart-note" class="notice" hidden>Some items in your cart are no longer available and were removed.</p>
+      <p id="cart-empty" class="empty">Your cart is empty. Add items from the list.</p>
+
+      <div id="cart-full" hidden>
+        <ul id="cart-items" class="lines"></ul>
+        <p class="sum"><span>Total</span> <strong id="cart-sum"></strong></p>
+
+        <form id="order-form">
+          <label for="cust-name">Your name</label>
+          <input id="cust-name" type="text" required maxlength="80" autocomplete="name">
+
+          <label for="cust-note">Address or note (optional)</label>
+          <textarea id="cust-note" rows="3" maxlength="300" autocomplete="street-address"></textarea>
+
+          <button class="btn primary" type="submit">Send order on WhatsApp</button>
+          <p id="status" class="status" role="status"></p>
+          <button id="clear-cart" class="link" type="button">Clear cart</button>
+        </form>
+      </div>
+    </div>
+  </aside>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
