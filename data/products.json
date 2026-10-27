@@ -13,6 +13,7 @@
     { "id": "turmeric-sakthi-100g", "name": "Turmeric Powder", "brand": "Sakthi", "category": "Masala", "unit": "100 g", "price": 3300, "inStock": true },
     { "id": "sambar-aachi-200g", "name": "Sambar Powder", "brand": "Aachi", "category": "Masala", "unit": "200 g", "price": 7200, "inStock": true },
     { "id": "sambar-sakthi-200g", "name": "Sambar Powder", "brand": "Sakthi", "category": "Masala", "unit": "200 g", "price": 6800, "inStock": true },
+    { "id": "rasam-sakthi-200g", "name": "Rasam Powder", "brand": "Sakthi", "category": "Masala", "unit": "200 g", "price": 5400, "inStock": true },
 
     { "id": "oil-sunflower-fortune-1l", "name": "Sunflower Oil", "brand": "Fortune", "category": "Oil", "unit": "1 L", "price": 14000, "inStock": true },
     { "id": "oil-sunflower-goldwinner-1l", "name": "Sunflower Oil", "brand": "Gold Winner", "category": "Oil", "unit": "1 L", "price": 14500, "inStock": true },
